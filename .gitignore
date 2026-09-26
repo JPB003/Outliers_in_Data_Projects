@@ -1,0 +1,14 @@
+# Ignorar todos los datasets CSV del proyecto
+*.csv
+
+# Temporales y puntos de guardado automático de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Caché de ejecución de Python
+__pycache__/
+*.py[cod]
