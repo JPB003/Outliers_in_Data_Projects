@@ -12,3 +12,8 @@ env/
 # Caché de ejecución de Python
 __pycache__/
 *.py[cod]
+.aider*
+
+# Credenciales Kaggle
+kaggle.json
+.env
