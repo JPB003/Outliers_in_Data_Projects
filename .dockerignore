@@ -14,9 +14,16 @@ __pycache__/
 .aider*
 .Rhistory
 
-# Credenciales
+# Credenciales y cualquier archivo que pueda contenerlas (la imagen es pública)
 kaggle.json
+.kaggle/
 .env
+.streamlit/
+API KAGGLE.png
+*.png
+
+# Copias de trabajo que no forman parte de las entregas
+**/*copia*/
 
 # Copias de seguridad locales de notebooks
 *_BACKUP_*.ipynb
