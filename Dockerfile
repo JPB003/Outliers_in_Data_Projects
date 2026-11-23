@@ -6,9 +6,10 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
-# Instalar dependencias del sistema mínimas si fueran necesarias
+# Instalar dependencias del sistema mínimas (libgomp1: OpenMP, necesario para LightGBM)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
+    libgomp1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Instalar librerías de Python

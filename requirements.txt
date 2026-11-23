@@ -1,8 +1,12 @@
-numpy
-pandas
+# Librerías científicas con versión fijada: verificadas en la imagen Docker (python:3.11-slim)
+# reproduciendo exactamente la entrega del Reto 02 (F1).
+numpy==2.4.6
+pandas==3.1.1
+scikit-learn==1.9.1
+scipy==1.17.1
+lightgbm==4.7.0
 matplotlib
 seaborn
-scikit-learn
 kagglehub
 jupyter
 ipykernel

@@ -1,0 +1,22 @@
+# Entornos virtuales y cachés locales (no deben entrar en la imagen)
+.venv/
+venv/
+env/
+.cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Trash-0/
+
+# Control de versiones y configuración del editor
+.git/
+.vscode/
+.aider*
+.Rhistory
+
+# Credenciales
+kaggle.json
+.env
+
+# Copias de seguridad locales de notebooks
+*_BACKUP_*.ipynb
